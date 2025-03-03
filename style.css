@@ -1,4 +1,28 @@
-.Header  {
-    background-color: blue;
+.section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    color: whitesmoke;
+    font-weight: 900;
+    align-items: baseline;
+    
+
 }
 
+.list {
+    display: flex;
+    gap: 50px;
+    justify-content: start; 
+    align-items: baseline;
+    font: ROBOTO;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-content: first baseline;
+    align-items: flex-start;
+    
+}
